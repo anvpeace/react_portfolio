@@ -1,0 +1,141 @@
+h4, h3 {
+  text-align: center;
+  font-family: "Special Gothic Expanded One", sans-serif;
+  font-weight: 400;
+  color: #1e3a8a;
+}
+
+.card {
+  margin: 1rem;
+  height: 100%;
+  border: none;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+}
+
+.card-img-top {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-bottom: 2px solid #1e3a8a;
+}
+
+.card-title {
+  font-weight: bold;
+  color: #1e3a8a;
+}
+
+.card .card-text {
+  color: #343a40;
+  margin-top: 10%;
+  margin-bottom: 3%;
+}
+
+.btn {
+  margin-top: 2%;
+  background-color: #1e3a8a;
+  color: #ffffff;
+  font-weight: bold;
+  display: block;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #233b99;
+}
+
+#packet_tracer {
+  margin-top: 19%;
+}
+
+#scanner {
+  margin-top: 2%;
+}
+
+#tracer2 {
+  margin-top: 28%;
+}
+
+@media (max-width: 768px) {
+  #right-nav {
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .main_cont {
+    padding: 0 2%;
+    margin-top: 3%;
+  }
+
+  .main_cont > p {
+    padding: 1rem;
+    text-align: left;
+    font-size: 0.95rem;
+  }
+
+  h1, h3, h4 {
+    font-size: 1.5rem;
+  }
+
+  .card {
+    margin: 0.5rem;
+  }
+
+  .card .card-text {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-size: 0.95rem;
+  }
+
+  .btn {
+    width: 80%;
+    font-size: 0.9rem;
+  }
+
+  #packet_tracer,
+  #scanner,
+  #tracer2 {
+    margin-top: 5%;
+  }
+}
+
+@media (max-width: 480px) {
+  h1, h3, h4 {
+    font-size: 1.25rem;
+  }
+
+  .main_cont > p {
+    font-size: 0.9rem;
+  }
+
+  .btn {
+    width: 100%;
+  }
+
+  .card .card-text {
+    font-size: 0.9rem;
+  }
+
+  .navbar-brand {
+    font-size: 1rem;
+  }
+
+  #right-nav {
+    font-size: medium;
+  }
+}
+
+
+
+
+
