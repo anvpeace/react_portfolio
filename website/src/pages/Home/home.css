@@ -41,13 +41,10 @@ h2 {
   color: #00bcd4;
 }
 
-.card {
-  background-color: #1e293b;
-  border: none;
-  border-radius: 0.5rem;
-  color: #f8fafc;
-}
+#title1, #title2{
+    color: #0a0b0b;
 
+}
 #headshot {
   max-width: 200px;
   height: auto;
@@ -98,7 +95,5 @@ h2 {
     padding: 0.5rem;
   }
 
-  .card {
-    padding: 1rem;
-  }
+
 }

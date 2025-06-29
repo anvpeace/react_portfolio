@@ -1,0 +1,9 @@
+.navbar {
+  background-color: var(--primary);
+  font-size: 1.25rem;
+}
+
+.navbar-brand, .nav-link {
+  color: var(--text-light) !important;
+  font-weight: 600;
+}

@@ -14,7 +14,7 @@ const Home = () =>{
 
       <section className="text-center py-4">
         <img id="headshot" src="\src\pages\Home\headshot.jpg" alt="Headshot" className="img-fluid rounded-circle shadow mb-3" />
-        <h2 className="fw-bold">Technical Background</h2>
+        <h2 className="fw-bold" id="title1">Technical Background</h2>
       </section>
 
       <section className="container py-3">
@@ -41,7 +41,7 @@ const Home = () =>{
       </section>
 
       <section className="container py-5">
-        <h2 className="text-center mb-4 fw-bold">About Me</h2>
+        <h2 className="text-center mb-4 fw-bold" id="title2">About Me</h2>
         <div className="row g-4">
           <div className="col-12 col-lg-6">
             <div className="card p-4 h-100">
